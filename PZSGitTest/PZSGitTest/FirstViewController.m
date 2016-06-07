@@ -11,6 +11,7 @@
 @interface FirstViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageViee;
+@property (nonatomic, assign) NSInteger value;
 
 @end
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.value = 0;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,8 +30,16 @@
 
 
 - (IBAction)buttonClick:(id)sender {
+    if (self.value % 2 == 1) {
+        self.imageViee.frame = [UIScreen mainScreen].bounds;
+        self.value++;
+        return;
+    } else {
+        self.imageViee.frame = CGRectMake(100, 100, 100, 100);
+        self.value++;
+        return;
+    }
     
-    self.imageViee.frame = [UIScreen mainScreen].bounds;
     
 }
 
