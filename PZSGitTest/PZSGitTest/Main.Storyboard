@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="rUL-WG-2qB">
             <objects>
-                <viewController id="QOh-Dt-OQS" sceneMemberID="viewController">
+                <viewController id="QOh-Dt-OQS" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TvO-5z-Zo5"/>
                         <viewControllerLayoutGuide type="bottom" id="ZKk-7c-WEc"/>
@@ -23,11 +23,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GH2-Rc-5VN">
                                 <rect key="frame" x="107" y="402" width="120" height="30"/>
                                 <state key="normal" title="点击按钮改变大小"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="QOh-Dt-OQS" eventType="touchUpInside" id="jx0-Qp-e9t"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageViee" destination="TiL-kr-Zca" id="BGI-oN-oAa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKh-a5-Gaq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

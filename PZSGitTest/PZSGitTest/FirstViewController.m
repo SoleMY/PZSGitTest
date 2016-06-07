@@ -10,6 +10,8 @@
 
 @interface FirstViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageViee;
+
 @end
 
 @implementation FirstViewController
@@ -22,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)buttonClick:(id)sender {
+    
+    self.imageViee.frame = [UIScreen mainScreen].bounds;
+    
 }
 
 /*
