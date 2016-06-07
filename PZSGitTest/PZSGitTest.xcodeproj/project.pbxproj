@@ -68,13 +68,10 @@
 				D68982041D06E9D70006EB63 /* AppDelegate.m */,
 				D68982061D06E9D70006EB63 /* ViewController.h */,
 				D68982071D06E9D70006EB63 /* ViewController.m */,
-<<<<<<< HEAD
 				D68982171D06ED890006EB63 /* FirstViewController.h */,
 				D68982181D06ED890006EB63 /* FirstViewController.m */,
-=======
 				D689821D1D06EE060006EB63 /* SecondeasdViewController.h */,
 				D689821E1D06EE060006EB63 /* SecondeasdViewController.m */,
->>>>>>> new
 				D68982091D06E9D70006EB63 /* Main.storyboard */,
 				D689820C1D06E9D70006EB63 /* Assets.xcassets */,
 				D689820E1D06E9D70006EB63 /* LaunchScreen.storyboard */,
