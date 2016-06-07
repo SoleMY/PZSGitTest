@@ -15,6 +15,7 @@
 		D68982101D06E9D70006EB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D689820E1D06E9D70006EB63 /* LaunchScreen.storyboard */; };
 		D68982191D06ED890006EB63 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68982181D06ED890006EB63 /* FirstViewController.m */; };
 		D689821F1D06EE060006EB63 /* SecondeasdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D689821E1D06EE060006EB63 /* SecondeasdViewController.m */; };
+		D68982211D06F0130006EB63 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D68982201D06F0130006EB63 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D68982181D06ED890006EB63 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		D689821D1D06EE060006EB63 /* SecondeasdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondeasdViewController.h; sourceTree = "<group>"; };
 		D689821E1D06EE060006EB63 /* SecondeasdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondeasdViewController.m; sourceTree = "<group>"; };
+		D68982201D06F0130006EB63 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				D689821D1D06EE060006EB63 /* SecondeasdViewController.h */,
 				D689821E1D06EE060006EB63 /* SecondeasdViewController.m */,
 				D68982091D06E9D70006EB63 /* Main.storyboard */,
+				D68982201D06F0130006EB63 /* 1.jpg */,
 				D689820C1D06E9D70006EB63 /* Assets.xcassets */,
 				D689820E1D06E9D70006EB63 /* LaunchScreen.storyboard */,
 				D68982111D06E9D70006EB63 /* Info.plist */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D68982101D06E9D70006EB63 /* LaunchScreen.storyboard in Resources */,
+				D68982211D06F0130006EB63 /* 1.jpg in Resources */,
 				D689820D1D06E9D70006EB63 /* Assets.xcassets in Resources */,
 				D689820B1D06E9D70006EB63 /* Main.storyboard in Resources */,
 			);
