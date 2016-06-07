@@ -16,6 +16,15 @@
                     <view key="view" contentMode="scaleToFill" id="HMw-i7-YE2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TiL-kr-Zca">
+                                <rect key="frame" x="47" y="107" width="240" height="250"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GH2-Rc-5VN">
+                                <rect key="frame" x="107" y="402" width="120" height="30"/>
+                                <state key="normal" title="点击按钮改变大小"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -24,4 +33,7 @@
             <point key="canvasLocation" x="644" y="156"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.jpg" width="200" height="200"/>
+    </resources>
 </document>
